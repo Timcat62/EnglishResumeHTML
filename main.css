@@ -11,3 +11,20 @@
     align-self: center;
     border-radius: 50%;
 }
+
+#resume-top {
+    position: absolute;
+    left: 35%;
+    width: 65%;
+    height: 200px;
+    background-color: rgb(77, 76, 76);
+}
+
+#resume-right {
+    position: absolute;
+    left: 35%;
+    top: 200px;
+    width: 65%;
+    height: 800px;
+    background-color: white;
+}
