@@ -1,0 +1,11 @@
+#resume-left {
+    position: absolute;
+    background-color: rgb(77, 76, 76);
+    width: 35%;
+    height: 1000px;
+}
+
+#profile-picture {
+    position: relative;
+    border-radius: 50%;
+}
