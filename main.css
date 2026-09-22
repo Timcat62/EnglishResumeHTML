@@ -7,5 +7,7 @@
 
 #profile-picture {
     position: relative;
+    top: 30px;
+    align-self: center;
     border-radius: 50%;
 }
