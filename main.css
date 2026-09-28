@@ -1,30 +1,136 @@
+body {
+    background: #292929;
+    color: #303030;
+    font-family: "Trebuchet MS";
+}
+
+#resume {
+    position: relative;
+    width: 800px;
+    height: 1050px;
+}
+
 #resume-left {
     position: absolute;
-    background-color: rgb(77, 76, 76);
-    width: 35%;
-    height: 1000px;
+    top: 0;
+    bottom: 0;
+    padding: 0 34px;
+    background: #515151;
+    color: #ffffff;
 }
 
 #profile-picture {
     position: relative;
-    top: 30px;
-    align-self: center;
+    width: 170px;
+    margin: 72px 0 40px;
+    border: 2px solid #c5c5c5;
     border-radius: 50%;
 }
 
-#resume-top {
-    position: absolute;
-    left: 35%;
-    width: 65%;
-    height: 200px;
-    background-color: rgb(77, 76, 76);
+.sidebar-section {
+    margin: 0 0 34px;
+}
+
+.sidebar-section h2, .content-section h2 {
+    margin: 0 0 12px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sidebar-section h2 {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.sidebar-section p, .sidebar-section li {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 1.55;
+}
+
+
+.sidebar-section ul {
+    margin: 0;
+    padding-left: 16px;
 }
 
 #resume-right {
-    position: absolute;
-    left: 35%;
-    top: 200px;
-    width: 65%;
-    height: 800px;
-    background-color: white;
+    margin-left: 35%;
+    width: 57%;
+    height: 1050px;
+    background: #ffffff;
+}
+
+#resume-top {
+    padding: 18px 70px 30px;
+    background: #777777;
+    color: #ffffff;
+}
+
+#resume-top h1 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    font-family: "Times New Roman";
+    font-size: 38px;
+    font-weight: normal;
+}
+
+#resume-top h2 {
+    margin: 7px 0 0;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.content-section {
+    padding: 40px 40px 0;
+    margin: 0 0 20px;
+}
+
+.content-section h2 {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #aaaaaa;
+    color: #222222;
+}
+
+.content-section p {
+    margin: 0 0 7px;
+    color: #444444;
+    font-size: 12px;
+    line-height: 1.35;
+}
+
+.entry {
+    margin: 18px 0 0;
+}
+
+.entry-date {
+    float: left;
+    width: 48px;
+    margin: 0;
+    border-right: 2px solid #b6b6b6;
+    color: #333333;
+    font-size: 11px;
+    text-align: center;
+}
+
+.entry-content h3 {
+    margin: 0 0 6px;
+    color: #333333;
+    font-size: 12px;
+}
+
+
+.entry-content li {
+    margin-bottom: 4px;
+    color: #444444;
+    font-size: 12px;
+    line-height: 1.35;
+}
+
+.entry-content {
+    margin-left: 60px;
 }
