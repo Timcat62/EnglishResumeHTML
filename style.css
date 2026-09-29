@@ -63,13 +63,13 @@ body {
     background: #ffffff;
 }
 
-#resume-top {
+#header {
     padding: 18px 70px 30px;
     background: #777777;
     color: #ffffff;
 }
 
-#resume-top h1 {
+#header h1 {
     padding-bottom: 10px;
     border-bottom: 1px solid #ffffff;
     color: #ffffff;
@@ -78,7 +78,7 @@ body {
     font-weight: normal;
 }
 
-#resume-top h2 {
+#header h2 {
     margin: 7px 0 0;
     color: #ffffff;
     font-size: 13px;
