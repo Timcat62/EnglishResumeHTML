@@ -27,31 +27,31 @@ body {
     border-radius: 50%;
 }
 
-.sidebar-section {
+.sidebar {
     margin: 0 0 34px;
 }
 
-.sidebar-section h2, .content-section h2 {
+.sidebar h2, .content h2 {
     margin: 0 0 12px;
     font-family: Georgia, "Times New Roman", serif;
     font-size: 18px;
     font-weight: bold;
 }
 
-.sidebar-section h2 {
+.sidebar h2 {
     padding-bottom: 6px;
     border-bottom: 1px solid #ffffff;
     color: #ffffff;
 }
 
-.sidebar-section p, .sidebar-section li {
+.sidebar p, .sidebar li {
     color: #ffffff;
     font-size: 12px;
     line-height: 1.55;
 }
 
 
-.sidebar-section ul {
+.sidebar ul {
     margin: 0;
     padding-left: 16px;
 }
@@ -85,29 +85,29 @@ body {
     font-weight: normal;
 }
 
-.content-section {
+.content {
     padding: 40px 40px 0;
     margin: 0 0 20px;
 }
 
-.content-section h2 {
+.content h2 {
     padding-bottom: 6px;
     border-bottom: 1px solid #aaaaaa;
     color: #222222;
 }
 
-.content-section p {
+.content p {
     margin: 0 0 7px;
     color: #444444;
     font-size: 12px;
     line-height: 1.35;
 }
 
-.entry {
+.entry1 {
     margin: 18px 0 0;
 }
 
-.entry-date {
+.entry2 {
     float: left;
     width: 48px;
     margin: 0;
@@ -117,20 +117,20 @@ body {
     text-align: center;
 }
 
-.entry-content h3 {
+.entry3 h3 {
     margin: 0 0 6px;
     color: #333333;
     font-size: 12px;
 }
 
 
-.entry-content li {
+.entry3 li {
     margin-bottom: 4px;
     color: #444444;
     font-size: 12px;
     line-height: 1.35;
 }
 
-.entry-content {
+.entry3 {
     margin-left: 60px;
 }
